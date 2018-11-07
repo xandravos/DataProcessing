@@ -7,7 +7,6 @@ This script visualizes data obtained from a .csv file
 
 import csv
 import matplotlib.pyplot as plt
-import numpy as np
 
 # Global constants for the input file, first and last year
 INPUT_CSV = "movies.csv"
@@ -38,7 +37,7 @@ for dict in data_dict:
 years = [2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]
 plt.plot(years, averages, linewidth=2.0)
 plt.axis([START_YEAR, END_YEAR - 1, 0.0, 10.0])
-plt.yticks(np.arange(0.0, 10.0, 0.5))
+plt.yticks(range(11))
 plt.suptitle('Average ratings for movies on IMDB', fontsize=18)
 plt.title('Which year is the average rating of movies higher?')
 plt.ylabel('Average', fontsize=13)
