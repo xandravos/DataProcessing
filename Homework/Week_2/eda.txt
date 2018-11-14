@@ -1,0 +1,12 @@
+# Name: Xandra Vos
+# Student number: 10731148
+#
+# Data Processing
+# Week 2
+# eda.txt
+
+Alle kolommen die niet gebruikt worden in deze opdracht zijn verwijderd en daarna zijn pas  de rijen verwijdert waar leegtes in zitten, zodat er geen data verloren gaat die bruikbaar is. 
+
+Daarnaast ik heb ervoor gekozen om een outlier in de kolom 'GDP ($ per capita) dollars' te verwijderen, omdat hieraan te zien is dat het een fout in de data is. Het GDP ligt uitzondering hoog en hoort bij het land Suriname, wat niet overeen komt met de werkelijkheid.
+
+Door het verwijderen van de onbruikbare kolommen en rijden zijn er minder landen over dan in de oorspronkelijke data. Dit zijn er nu nog 216 i.p.v. 227.
