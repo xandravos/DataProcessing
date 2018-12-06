@@ -10,25 +10,29 @@ HTML file to post on the local host page.
     <head>
         <title>Scatter</title>
         <link rel="stylesheet" href="scatter.css">
+        <script type="text/javascript" src="d3/d3.js"></script>
     </head>
 
     <body>
+        <h3>
+            Scatterplot Women in Science vs. Consumer Confidence
+        </h3>
         <p>
+            Data Processing - Week 5
+            <br>
             Name: Xandra Vos
             <br>
             Studentnumber: 10731148
             <br>
-            Week 5
-            <br>
-            Weet nog niet
         </p>
-        <h3>
-            Scatterplot
-        </h3>
-        <br>
-
-        <canvas id="myCanvas", width="700", height="500"></canvas>
-
-            <script src="scatter.js"></script>
+        <p>
+            In this HTML page a scatterplot of women in science versus consumer
+            confidence is shown. The data used to make this scatterplot is linked below.
+            <br>
+            <a href="http://stats.oecd.org/SDMX-JSON/data/MSTI_PUB/TH_WRXRS.FRA+DEU+KOR+NLD+PRT+GBR/all?startTime=2007&endTime=2015">Percentage of women in science</a>
+            <br>
+            <a href="http://stats.oecd.org/SDMX-JSON/data/HH_DASH/FRA+DEU+KOR+NLD+PRT+GBR.COCONF.A/all?startTime=2007&endTime=2015">Consumer confidence</a>
+        </p>
+        <script src="scatter.js"></script>
     </body>
 </html>
