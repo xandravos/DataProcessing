@@ -147,7 +147,6 @@ function dataYear(data, year){
         datapoints = [];
     };
 
-    console.log(yearData)
     // return data for specific year
     return yearData;
 };
