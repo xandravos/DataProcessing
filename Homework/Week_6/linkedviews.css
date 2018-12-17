@@ -6,11 +6,52 @@ Dataprocessing - Week 6
 CSS file for style in HTML file.
 */
 
+body {
+    font-family: verdana;
+}
+
 p {
     font-family: verdana;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 h3 {
     font-family: verdana;
+}
+
+.myLabelX {
+    font-size: 12px;
+}
+
+.myLabelY {
+    font-size: 12px;
+}
+
+.tooltip {
+    position: absolute;
+    text-align: center;
+    font-family: verdana;
+    font-size: 12px;
+}
+
+.pieText {
+    fill: white;
+}
+
+.bars {
+  float: left;
+}
+
+.pie {
+    float: left;
+}
+
+#tipText {
+    font-family: verdana;
+    font-size: 12px;
+}
+
+#legendText {
+    font-family: verdana;
+    font-size: 12px;
 }

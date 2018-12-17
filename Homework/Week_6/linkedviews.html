@@ -8,9 +8,10 @@ HTML file to post on the local host page.
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Scatter</title>
-        <link rel="stylesheet" href="linkedviews.css">
+        <title>Linked Views</title>
+        <link rel="stylesheet" type="text/css" href="linkedviews.css">
         <script type="text/javascript" src="d3/d3.js"></script>
+
     </head>
 
     <body>
@@ -26,10 +27,21 @@ HTML file to post on the local host page.
             <br>
         </p>
         <p>
-            HIER EVEN VERTELLEN WAAR HET OVER GAAT
-            <br>
-            <a href="https://duo.nl/open_onderwijsdata/databestanden/ho/ingeschreven/wo-ingeschr/ingeschrevenen-wo1.jsp">Data of amount of students enrolled in the studies Science, Business and Innovation</a>
+            The barchart visualizes the number of students enrolled in
+            four different studies in 2017: Science, Business and Innovation
+            (SBI), Econometrics (ECO), Business Administration (BA) and
+            Psychology (PSY).
         </p>
+        <p>
+            When hovering over a bar, the amount of student will appear.
+            When clicking on a bar, a piechart appears. The piechart gives a
+            visualization of the men-women distrubution of the students.
+            The data can be found by clicking on the link below.
+        </p>
+        <p>
+            <a href="https://duo.nl/open_onderwijsdata/databestanden/ho/ingeschreven/wo-ingeschr/ingeschrevenen-wo1.jsp">Data of amount of students enrolled in studies</a>
+        </p>
+        <div id='container'></div>
         <script src="linkedviews.js"></script>
     </body>
 </html>
